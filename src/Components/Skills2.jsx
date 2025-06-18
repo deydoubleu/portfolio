@@ -40,6 +40,7 @@ const skills = [
   { name: "Linux", category: "DevOps" },
   { name: "AWS", category: "DevOps" },
   { name: "Jenkins", category: "DevOps" },
+  { name: "GitHub Actions", category: "DevOps" },
   { name: "Terraform", category: "DevOps" },
   { name: "Kubernetes", category: "DevOps" },
   { name: "Prometheus", category: "DevOps" },

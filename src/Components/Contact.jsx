@@ -13,7 +13,7 @@ export const Contact = () => {
                         </div>
                         <div>
                             <p className="text-sm font-medium">Email</p>
-                            <a href="mailto:dt.wakista@gmail.com" className="text-muted-primary hover:text-primary transition-colors">test@gmail.com</a>
+                            <a href="mailto:dt.wakista@gmail.com" className="text-muted-primary hover:text-primary transition-colors">dt.wakista@gmail.com</a>
                         </div>
                     </div>
                     <div className="flex items-start space-x-4">

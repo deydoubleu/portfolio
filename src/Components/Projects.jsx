@@ -26,7 +26,7 @@ export const Projects = () => {
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl mb-4 font-bold text-center text-gradient">Featured Projects</h2>
                 <p className="text-muted-primary max-w-2xl text-center mb-0 mx-auto">Below are some of my recent individual projects.</p>
-                <p className="text-muted-primary max-w-2xl text-center mb-12 mx-auto mt-0">This section only displays individual work, and does not include in group projects or academic projects.</p>
+                <p className="text-muted-primary max-w-2xl text-center mb-12 mx-auto mt-0">This section only displays individual work, and does not include group projects or academic projects.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((proj, key) => (
                         <div key={key} className="group bg-card overflow-hidden shadow-xs card-hover rounded-lg">

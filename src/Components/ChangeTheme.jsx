@@ -3,7 +3,7 @@ import { SunIcon, MoonIcon } from '@heroicons/react/24/solid'; // or /outline
 import { cn } from "@/lib/utils";
 
 export const ChangeTheme = () => {
-    const [ isDarkMode, setIsDarkMode ] = useState(false);
+    const [ isDarkMode, setIsDarkMode ] = useState(true);
 
     useEffect(() => {
         const storedTheme = localStorage.getItem('theme');
